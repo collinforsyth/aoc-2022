@@ -15,7 +15,7 @@ func DayOne() *cobra.Command {
 	var inputFile string
 	cmd := &cobra.Command{
 		Use:   "day1",
-		Short: "Day One Solution",
+		Short: "Day 1 Solution",
 		RunE: func(_ *cobra.Command, _ []string) error {
 			return dayOne(inputFile)
 		},

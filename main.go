@@ -13,6 +13,7 @@ func main() {
 		Short: "Advent of Code 2022 Solutions",
 	}
 	cmd.AddCommand(solutions.DayOne())
+	cmd.AddCommand(solutions.DayTwo())
 
 	if err := cmd.Execute(); err != nil {
 		log.Fatal(err)
