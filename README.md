@@ -22,3 +22,17 @@ Part Two: 13448
 Part One: 7831
 Part Two: 2683
 ```
+
+##### Day 4:
+```
+❯ ./aoc2022 day4 --input-file ./data/day4_input.txt
+Part One: 582
+Part Two: 893
+```
+
+##### Day 5:
+```
+❯ ./aoc2022 day5 --input-file ./data/day5_input.txt
+Part One: DHBJQJCCW
+Part Two: WJVRLSJJT
+```

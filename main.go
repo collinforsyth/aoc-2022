@@ -16,6 +16,7 @@ func main() {
 	cmd.AddCommand(solutions.DayTwo())
 	cmd.AddCommand(solutions.DayThree())
 	cmd.AddCommand(solutions.DayFour())
+	cmd.AddCommand(solutions.DayFive())
 
 	if err := cmd.Execute(); err != nil {
 		log.Fatal(err)
